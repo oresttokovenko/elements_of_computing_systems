@@ -1,3 +1,4 @@
 {
-"asm-code-lens.enableFindAllReferences": false
+"asm-code-lens.enableFindAllReferences": false,
+"asm-code-lens.enableGotoDefinition": false
 }
