@@ -1,4 +1,10 @@
 {
-"asm-code-lens.enableFindAllReferences": false,
-"asm-code-lens.enableGotoDefinition": false
+    "files.associations": {
+        // these aren't the correct file types but we get basic text highlighting
+        "*.hdl" : "asm-collection",
+        "*.tst" : "asm-collection",
+        "*.jack" : "java"
+    },
+    "asm-code-lens.enableFindAllReferences": false,
+    "asm-code-lens.enableGotoDefinition": false
 }
