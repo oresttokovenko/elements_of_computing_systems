@@ -11,5 +11,17 @@ CHIP Xor {
     OUT out;
 
     PARTS:
-    //// Replace this comment with your code.
+
+    // inverting inputs
+    Not(in=a, out=notA);
+    Not(in=b, out=notB);
+
+    // computing a AND (NOT b)
+    And(a=a, b=notB, out=aAndNotB);
+
+    // computing (NOT a) AND b
+    And(a=notA, b=b, out=notAAndB);
+
+    // OR the results
+    Or(a=aAndNotB, b=notAAndB, out=out);
 }

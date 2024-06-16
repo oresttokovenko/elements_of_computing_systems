@@ -5,7 +5,15 @@ The goal of Project 1 is to implement basic logic gates using the NAND gate
 
 ## Instructions
 1. **Implement Logic Gates**: 
-   - Implement the following basic logic gates using the `Nand` gate: `Not`, `And`, `Or`, `Xor`, `Mux`, `DMux`, `Not16`, `And16`, `Or16`, `Mux16`, `Or8Way`, `Mux4Way16`, `Mux8Way16`, `DMux4Way`, and `DMux8Way`.
+   - Implement the following basic logic gates using the `Nand` gate:
+      | Elementary logic gates | 16-bit variants | Multi-way variants |
+      |------------------------|-----------------|--------------------|
+      | - Not                  | - Not16         | - Or8Way           |
+      | - And                  | - And16         | - Mux4Way16        |
+      | - Or                   | - Or16          | - Mux8Way16        |
+      | - Xor                  | - Mux16         | - DMux4Way         |
+      | - Mux                  |                 | - DMux8Way         |
+      | - DMux                 |                 |                    |
 
 2. **Test Your Implementations**:
    - Each gate you implement has an associated `.tst` (test script) and `.cmp` (comparison) file.
