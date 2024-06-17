@@ -1,6 +1,6 @@
 # Elements of Computing Systems
 
-This repository contains my implementations and exercises from the book "The Elements of Computing Systems: Building a Modern Computer from First Principles" by Noam Nisan and Shimon Schocken, where I build a computer system from the ground up using hardware and software engineering principles. The software projects in chapters 6, 7, 8, 10, and 11 are written in Python 3.12. The solution to each chapter can be found in the `_solution` directories.
+This repository contains my implementations and exercises from the book "The Elements of Computing Systems: Building a Modern Computer from First Principles" by Noam Nisan and Shimon Schocken, where I build a computer system from the ground up using hardware and software engineering principles. The software projects in chapters 6, 7, 8, 10, and 11 are written in Go, which I chose for its combination of simplicity, strong typing, and memory management with pointers. The solution to each chapter (if it doesn't involve completing existing files) can be found in the `_solution` directories.
 
 ## Table of Contents
 - [Assembler](projects/ch06/_solution)
