@@ -22,6 +22,6 @@ The goal of Project 1 is to implement basic logic gates using the NAND gate
 3. **Run the Hardware Simulator**:
    - To run the Hardware Simulator, navigate to the `tools` directory and execute the following command:
      ```bash
-     bash HardwareSimulator.sh
+     make hdwrsimulator
      ```
    - Once the simulator is running, you can load each `.tst` file to test your `.hdl` implementations. The simulator will output a `.out` file which should match the `.cmp` file if the logic gate is correct.
