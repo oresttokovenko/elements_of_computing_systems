@@ -1,6 +1,6 @@
 {
     "files.associations": {
-        // these aren't the correct file types but we get basic text highlighting
+        // these aren't the correct file types but we get basic syntax highlighting
         "*.hdl" : "asm-collection",
         "*.tst" : "asm-collection",
         "*.jack" : "java"

@@ -7,5 +7,5 @@ help: ## Print all commands (including this one)
 ####################################################################################################################
 # Main Scripts
 
-ch01_test:
+hdwrsimulator:
 	@bash tools/HardwareSimulator.sh
