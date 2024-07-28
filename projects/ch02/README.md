@@ -1,4 +1,4 @@
-# Project 2: Boolean Arithmetic
+# Chapter 2: Boolean Arithmetic
 
 ## Objective
 The goal of chapter 2 is to implement a set of basic arithmetic and logical operations using the gates implemented in Project 1

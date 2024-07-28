@@ -1,4 +1,4 @@
-# Project 1: Boolean Logic
+# Chapter 1: Boolean Logic
 
 ## Objective
 The goal of chapter 1 is to implement basic logic gates
